@@ -1,0 +1,7 @@
+-- Elements ==> block Elements
+                inline Elements
+
+-- Block Elements ==> h1 : h6 , p , hr
+-- inline Elemnts ==> span  , a , img
+
+-- search engine optimization
