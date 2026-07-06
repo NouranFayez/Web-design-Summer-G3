@@ -1,0 +1,22 @@
+
+
+
+
+Register Form 
+
+- first Name ==> maxlength = 5 , letters
+- email ==> required , format email (pattern)
+- phone ==> characters = 11 , numbers , 010 , 011 , 015 , 012 (pattern)
+- file ==> image => end with .png
+- courses ==> select with filter  (datalist)
+- date => required
+- comment ==> required  , letters only
+- range = input type range (100 : 200)
+- gender ==> auto select on one of (male / female)
+- tracks ==> checkbox 
+- submit , reset button
+- all form elements ==> name
+- make a frame of form ==> fieldset
+
+
+github repo name example ==> web-design-summer-G3-ahmed-ramy

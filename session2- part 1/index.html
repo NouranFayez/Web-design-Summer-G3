@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- text formating -->
+    <span>Html</span>
+    <!-- bold -->
+    <b>Html</b>
+    <!-- important text -->
+    <strong>Html</strong>
+    <i>Html</i>
+    <small>Html</small>
+    <mark>Html</mark>
+    <!-- deleted text -->
+    <del>200 LE</del>
+    <!-- superscript , subscript ==> search -->
+    <sup></sup>
+    <sub></sub>
+
+    <u>Html</u>
+
+
+    <hr>
+
+    <form autocomplete="off" method="post">
+        <h2>Registration form</h2>
+        <!-- <label>First Name: </label> -->
+        <input type="text" name="firstName"
+        required autofocus autocomplete="off" placeholder="Enter first name"> <br>
+        <label for="userLastName">Last Name :</label>
+        <input type="text" id="userLastName" name="lastName"> <br>
+        <!-- username@domain.subdomain -->
+        <label>Email</label>
+        <input type="email" id="userEmail" name="email"> <br>
+        <label for="">Password</label>
+        <input type="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+            title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters">
+        <br>
+        <label>Shipping area</label>
+        <input type="text" name="shippingArea" value="Alex" disabled>
+        <input type="text" name="shippingArea" value="cairo" readonly>
+        <br>
+        <label>Gender</label>
+        <input type="radio" name="gender" value="male">
+        <label>Male</label>
+        <input type="radio" name="gender" value="female">
+        <label>Female</label>
+
+        <br>
+
+        <label for="">Age</label>
+        <input type="number" name="age" min="10" max="30" value="20">
+
+        <br>
+
+        <label for="">Track</label>
+        <input type="checkbox" name="track" value="web">
+        <label>Web Design</label>
+        <input type="checkbox" name="track" value="net">
+        <label>Network</label>
+        <input type="checkbox" name="track" value="bk">
+        <label>Backend</label>
+
+        <br>
+
+        <!-- <label>Courses</label> -->
+        <select name="courses" id="" multiple>
+            <option value="" disabled selected>Choose your course</option>
+            <option value="0">Html</option>
+            <option value="1">Css</option>
+            <option value="2">Boostrap</option>
+            <option value="3">JS</option>
+        </select>
+
+        <br>
+
+        <label>Address</label>
+        <textarea name="address" rows="4" cols="30" placeholder="Enter your address"></textarea>
+
+
+
+        <br>
+
+
+        <input type="file" accept="" multiple>
+
+        <br>
+
+        <input type="color">
+
+
+        <br>
+        <input type="date">
+        <input type="datetime-local">
+        <input type="time">
+        <input type="month">
+
+
+        <label for="">ID Number</label>
+        <input type="text" maxlength="14" minlength="5"
+        required >
+
+
+
+        <br>
+
+
+
+        <input type="submit" value="add User">
+        <button type="reset">Clear</button>
+        <button type="button">Sign up</button>
+    </form>
+    <button>Register</button>
+
+
+
+</body>
+
+</html>
