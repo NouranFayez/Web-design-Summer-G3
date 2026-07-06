@@ -1,0 +1,64 @@
+h1 {
+    color: goldenrod;
+}
+
+
+
+.text-gray {
+    color: dimgray;
+}
+
+.text-blue {
+    color: blue;
+}
+
+p {
+    color: teal;
+}
+
+#h4-color {
+    color: goldenrod;
+}
+
+h4 {
+    color: red;
+}
+
+
+.div-style {
+    background-color: antiquewhite;
+    color: blue;
+    width: 50%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    padding: 1% 2% 1% 3%;
+    padding: 2% 3% 1%;
+    padding: 2% 3%;
+    padding: 2%;
+    margin-left: auto;
+    margin-bottom: 2%;
+    margin-right: auto;
+    margin: 2% auto;
+    /* border ==> style (required) , width , color */
+    /* border-top-color: red; */
+    border-top-width: 4px;
+    border-top-style: solid;
+    border-top: 3px solid red;
+    /* border-left , border-right , border-bottom  */
+    border: 4px solid red;
+    /* border-top-left-radius: 15px;
+    border-top-right-radius: 68px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px; */
+    border-radius: 20px;
+    border-radius: 15px 68px;
+
+}
+
+.div-style h5 {
+    /* width: 50%; */
+    background-color: teal;
+    color: white;
+}
