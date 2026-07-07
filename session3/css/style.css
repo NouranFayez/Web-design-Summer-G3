@@ -1,0 +1,165 @@
+/* reset style */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    box-sizing: border-box;
+}
+
+a{
+    /* underline , line-through , overline , none */
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+/* global style */
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.margin-bottom{
+    margin-bottom: 6%;
+}
+.padding-top-bottom{
+    padding: 4% 0;
+}
+.text-center{
+    /* center left right justify */
+    text-align: center;
+}
+.border-bottom{
+    border-bottom: 1px solid lightgray;
+}
+.w-30{
+    width: 30%;
+}
+.d-inline-block{
+    display: inline-block;
+}
+
+
+/* custom style */
+
+.card {
+    margin: 3% auto;
+    /* box-shadow ==> x-offset y-offset blur spread color */
+    box-shadow: 0px 0px 7px 2px lightgray;
+    /* display ==> none , block , inline , inline-block , flex  */
+    /* display: inline-block; */
+
+}
+
+.card img {
+    width: 100%;
+}
+.card-body{
+   padding: 6% 8%;
+}
+.card-body p {
+    color: dimgray;
+    line-height: 1.3;
+    font-size: 20px;
+    text-align: justify;
+}
+.card-body a{
+    background-color: black;
+    color: white;
+    padding: 2%;
+    /* width: 50%; */
+    /* height: 200px; */
+    /* margin: 26%; */
+}
+
+.custom-margin{
+    margin: 3% 5% ;
+}
+
+.bg-light{
+    background-color: rgb(227, 227, 227);
+}
+
+.about-card{
+    padding: 2% ;
+    border: 4px solid teal;
+    font-size: 20px;
+    background-color: white;
+    margin-top: 3%;
+   
+}
+
+.contact-form{
+    width: 40%;
+    margin: 1% auto;
+    border: 2px solid teal;
+    border-radius: 15px;
+    padding: 3%;
+}
+.contact-form input{
+    display: block;
+    width: 100%;
+    padding: 2%;
+    margin-bottom: 4%;
+        border: 0;
+    border-bottom: 1px solid teal;
+}
+.contact-form button{
+       margin: auto;
+    display: block;
+    background-color: #008080;
+    color: white;
+    padding: 2%;
+    border-radius: 5px;
+    border: 0;
+}
+.hr-style{
+    width: 8%;
+    margin: 3% auto;
+    color: teal;
+    background-color: teal;
+    border-color: teal;
+    border-style: solid;
+    border-width: 2px;
+    border: 2px solid teal;
+}
+
+.card-list ul{
+    /* list-style: none; */
+    padding: 4%;
+    background-color: antiquewhite;
+    line-height: 2;
+}
+.card-list li{
+    /* border-bottom: 1px solid lightgray; */
+    /* padding: 3% 2%; */
+}
+
+
+/* h3{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+h3 , p , body{
+      margin: 0;
+    padding: 0;
+} */
+
+/* color ==>  red green blue */
+/* hexaDecimal #6:8 
+    0 : 9 
+    a:f
+    #000000
+   
+  rgba ==> 0:255  
+
+*/
