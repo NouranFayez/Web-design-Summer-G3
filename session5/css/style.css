@@ -1,0 +1,101 @@
+/* reset style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* global style */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.bg-light {
+    background-color: #eee;
+}
+
+.padding-top-bottom {
+    padding: 4% 0%;
+}
+
+.bg-dark{
+    background-color: rgb(63, 63, 63);
+    color: white;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+
+
+
+/* custom style */
+nav{
+    padding: 1% 0%;
+}
+.nav-logo{
+    font-size: 45px;
+    font-weight: bold;
+}
+nav ul{
+    width: 40%;
+}
+.flex-box {
+    display: flex;
+    /* flex-direction ==> row (default) , row-reverse , column , column-reverse */
+    /* flex-wrap ==> nowrap(default) , wrap , wrap-reverse */
+    flex-wrap: wrap;
+    /* flex-flow ==> flex-direction flex-wrap */
+    flex-flow: row wrap;
+    /* justify-content: flex-start (default) , flex-end , center , space-between , space-around , space-evenly; */
+    justify-content: space-between;
+    /* align-items: stretch(default) , flex-start , flex-end , center; */
+    align-items: flex-start;
+    row-gap: 14px;
+    /* column-gap: 2%; */
+    background: teal;
+    height: 600px;
+    /* align-content==>  flex-start , flex-end , center , space-between , space-around , space-evenly;  */
+    align-content: space-evenly;
+}
+
+.align-self-center{
+    align-self: center;
+}
+.order-first{
+    order: -1;
+}
+
+.card {
+    width: 30%;
+    background: white;
+    padding: 2%;
+    border: 1px solid;
+
+}
+.title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 3%;
+}
+
+
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
