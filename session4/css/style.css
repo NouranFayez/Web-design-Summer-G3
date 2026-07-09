@@ -132,3 +132,14 @@ nav li {
 /* text-transform ==> search
     font-wegith ==> search
 */
+
+
+
+.custom-bg-img{
+    background-image: url(../images/bg.jpg) ;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 63% 100%;
+    background-position-x: right;
+
+}
