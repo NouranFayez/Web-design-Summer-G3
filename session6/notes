@@ -1,0 +1,11 @@
+git clone https://github.com/NouranFayez/Web-design-Summer-G3
+
+git pull
+
+
+
+<!-- to upload to repo -->
+git add .
+git commit -m "message"
+git push
+
