@@ -1,0 +1,71 @@
+
+
+/* Rule type condition breakpoint */
+
+
+/* rule ==> @media  */
+
+/* type ==> all , screen , print , speetch */
+
+/* condition ==> max-width , min-width , range */
+
+/* breakpoint ==> screen sizes */
+
+
+/* https://getbootstrap.com/docs/5.3/layout/breakpoints */
+
+
+/* 400 */
+
+@media (max-width : 991.98px){
+    .justify-content-between{
+        justify-content: center;
+    }
+}
+
+
+ @media (max-width: 767.98px) { 
+    .service-card {
+        width: 48%;
+    }
+  }
+
+/* 0 : 575.98 */
+@media (max-width: 575.98px) { 
+
+    .service-card{
+        width: 100%;
+    }
+    .display-small-none{
+        display: none;
+    }
+ }
+
+
+
+ @media (min-width: 1200px) { 
+    .service-card {
+        border: 3px solid blue;
+    }
+ }
+
+
+ /* range max-width : min-width */
+
+ @media (min-width: 400px) and (max-width:800px){
+    .service-card{
+        background-color: goldenrod;
+        color: white;
+    }
+ }
+
+
+
+ @media print{
+    .display-small-none{
+        display: none;
+    }
+ }
+ 
+
+
