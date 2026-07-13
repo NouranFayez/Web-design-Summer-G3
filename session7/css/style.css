@@ -1,5 +1,5 @@
 /* Reset Style */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,54 +7,63 @@
 
 
 /* global style */
-.container{
+.container {
     width: 80%;
     margin: auto;
 }
 
-.d-flex{
+.d-flex {
     display: flex;
+    flex-wrap: wrap;
 }
-.justify-content-between{
+
+.justify-content-between {
     justify-content: space-between;
 }
-.padding-top-bottom{
+
+.padding-top-bottom {
     padding: 4% 0%;
 }
-.bg-light{
+
+.bg-light {
     background-color: rgb(230, 230, 230);
 }
-.w-100{
+
+.w-100 {
     width: 100%;
-   
+
 }
-.d-block{
+
+.d-block {
     display: block;
 }
-.aspect-ratio{
-    aspect-ratio: 1 / 1; 
+
+.aspect-ratio {
+    aspect-ratio: 1 / 1;
 }
-.circle{
+
+.circle {
     border-radius: 50%;
 }
 
 /* custom style */
-.card{
+.card {
     width: 32%;
 }
-.card-body{
+
+.card-body {
     background-color: white;
     padding: 2%;
 }
 
-.card img{
+.card img {
     transition: 2s linear;
     /* filter: blur(5px); */
     /* filter: brightness(0%); */
 
 }
 
-.card img:hover{
+.card img:hover {
     /* filter: blur(0); */
     filter: brightness(50%);
     filter: brightness(0%);
@@ -67,17 +76,19 @@
     /* filter ==> drop-shadow (search) */
 
 }
-.card a{
+
+.card a {
     font-size: 25px;
 }
-.custom-card{
+
+.custom-card {
     transition: 2s;
 }
 
-.custom-card{
+.custom-card {
     /* display: none; */
     /*opacity ==> 0 : 1 */
-    opacity: 0.5 ;
+    opacity: 0.5;
     /* opacity: 0 ; */
     /* visibility: hidden; */
 }
@@ -87,4 +98,213 @@
 /* display : none , opacity , visibility */
 
 
+/* pseudo class  */
 
+
+form {
+    width: 50%;
+    box-shadow: 0px 0px 3px 3px rgb(230, 230, 230);
+    padding: 2%;
+    margin: auto;
+    border: 3px solid blue;
+    outline: 3px solid red;
+}
+
+.custom-input {
+    width: 48%;
+}
+
+.custom-input input {
+    padding: 2%;
+    border: 0;
+    border-bottom: 2px solid teal;
+    margin-bottom: 3%;
+    color: red;
+}
+
+.custom-input input:focus {
+    outline: 0px;
+    border-color: goldenrod;
+}
+
+input:disabled {
+    background-color: lightblue;
+}
+
+input:checked {
+    width: 30px;
+    height: 30px;
+}
+
+
+table {
+    margin: 3% 0%;
+    border: 2px solid lightgray;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 2px solid lightgray;
+    padding: 1%;
+}
+
+th {
+    background-color: teal;
+    color: white;
+
+}
+
+tr:nth-child(3),
+tr:nth-child(5) {
+    /* background-color: rgb(227, 227, 227); */
+}
+
+/* nth-child ==> num , even , odd */
+tr:nth-child(odd) {
+    background-color: rgb(227, 227, 227);
+}
+
+tr:nth-child(even) {
+    background-color: #d2ebf3;
+}
+
+tr:nth-child(even):hover {
+    background-color: black;
+    color: white;
+}
+
+/* li:nth-child(1){
+    color: red;
+} */
+li:first-child {
+    color: red;
+}
+
+li:last-child {
+    color: blue;
+}
+
+/* Pseudo Element */
+input::placeholder {
+    color: blue;
+}
+
+::marker {
+    color: blue;
+}
+
+::selection {
+    background-color: goldenrod;
+    color: white;
+}
+
+h2::first-line {
+    color: blue;
+}
+
+h2::first-letter {
+    color: red;
+    font-size: 35px;
+}
+
+/* before / after */
+
+.custom-before-card {
+    padding: 4%;
+    margin: 4% 0%;
+    position: relative;
+}
+
+.custom-before-card::before {
+    content: "Web Design";
+    border: 2px solid;
+    padding: 4%;
+    /* width: 100px; */
+    /* height: 100px; */
+    display: inline-block;
+    margin-bottom: 5%;
+}
+
+.custom-before-card:hover::before {
+    background-color: black;
+    color: white;
+}
+
+
+.custom-before-card::after {
+    content: "";
+    display: inline-block;
+    /* width: 0%; */
+    border-top: 20px solid #e6e6e6;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    /* border-bottom: 20px solid goldenrod; */
+    position: absolute;
+    top: 100%;
+    /* /* bottom: -20px; */
+
+}
+
+.position-card {
+    width: 40%;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.position-card-body {
+    position: absolute;
+    padding: 3%;
+    top: 76%;
+    background: white;
+    width: 100%;
+    height: 100%;
+    transition: 2s;
+}
+.position-card:hover .position-card-body{
+    top: 0%;
+}
+
+.transform-card{
+    width: 40%;
+    padding: 2%;
+    transition: 2s;
+    /* transform: scaleX(0); */
+}
+.transform-card:hover{
+    transform: translateX(100px);
+    transform: translateX(70%);
+    transform: translateX(-70%);
+    transform: translateY(30%);
+    transform: translateY(-30%);
+    transform: translateY(100px);
+    transform: translate(50% ,  50%);
+    transform : rotate(40deg);
+    transform : rotate(-40deg);
+    transform: skewX(50deg);
+    transform: skewX(-50deg);
+    transform: skewY(-50deg);
+    transform: scaleX(1.5);
+    transform: scaleX(0.5);
+    transform: scaleX(1);
+    transform: scaleY(1.5);
+    transform: scaleY(0.5);
+    transform: scale(1.2);
+    /* matrix() ==> scaleX ,skewY , skewX , scaleY , translateX , translateY */
+    transform: matrix(1.5 , 0 , 0.3 , 0.5 , 100 , 50  );
+
+    transform: rotate(20deg);
+    transform:  translate(100px) rotate(20deg);
+    transform:  scale(1.5) rotate(20deg);
+
+
+}
+/* .custom-hover-scale:hover .transform-card{
+    transform: scaleX(1);
+
+} */
+.bg-dark{
+    background-color: rgb(58, 58, 58);
+    color: white;
+}
