@@ -1,0 +1,90 @@
+/* Reset Style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* global style */
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.d-flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.padding-top-bottom{
+    padding: 4% 0%;
+}
+.bg-light{
+    background-color: rgb(230, 230, 230);
+}
+.w-100{
+    width: 100%;
+   
+}
+.d-block{
+    display: block;
+}
+.aspect-ratio{
+    aspect-ratio: 1 / 1; 
+}
+.circle{
+    border-radius: 50%;
+}
+
+/* custom style */
+.card{
+    width: 32%;
+}
+.card-body{
+    background-color: white;
+    padding: 2%;
+}
+
+.card img{
+    transition: 2s linear;
+    /* filter: blur(5px); */
+    /* filter: brightness(0%); */
+
+}
+
+.card img:hover{
+    /* filter: blur(0); */
+    filter: brightness(50%);
+    filter: brightness(0%);
+    filter: brightness(100%);
+    filter: contrast(50%);
+    filter: contrast(150%);
+    filter: grayscale(50%);
+    filter: opacity(0%);
+    filter: sepia(50%);
+    /* filter ==> drop-shadow (search) */
+
+}
+.card a{
+    font-size: 25px;
+}
+.custom-card{
+    transition: 2s;
+}
+
+.custom-card{
+    /* display: none; */
+    /*opacity ==> 0 : 1 */
+    opacity: 0.5 ;
+    /* opacity: 0 ; */
+    /* visibility: hidden; */
+}
+
+
+
+/* display : none , opacity , visibility */
+
+
+
