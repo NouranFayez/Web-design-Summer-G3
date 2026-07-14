@@ -1,9 +1,18 @@
 /* Reset Style */
+:root{
+    --primary-color : #2DA884;
+    --section-padding : 5% 0%;
+    --title-size : 25px;
+}
+
 *{
     margin: 0;
     padding: 0;
     font-family: "Montenegrin Gothic One", serif;
     box-sizing: border-box;
+    /* rtl ==> right to left */
+    /* ltr (default) ==> left to right */
+    direction: rtl;
 }
 
 
@@ -17,7 +26,14 @@
 }
 .padding-top-bottom{
 
-    padding: 5% 0%;
+    padding: var(--section-padding);
+}
+.text-primary{
+    color: var(--primary-color);
+}
+
+h4 , h5 {
+    font-size: var(--title-size);
 }
 
 .prespective{
@@ -26,6 +42,7 @@
 
 .d-flex{
     display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -53,7 +70,7 @@
     transform-style: preserve-3d;
 }
 .card-front{
-    background-color: teal;
+    background-color: var(--primary-color);
 
 }
 .card-back{
@@ -142,5 +159,24 @@
         /* transform: rotate(180deg) translateY(-200px); */
      }
 }
+
+
+
+.custom-card{
+    border: 2px solid teal;
+         width: calc(100% / 3 - 2%);
+    margin-right: calc(100% - 98%);
+    position: relative;
+}
+.square{
+    width: 50px;
+    height: 50px;
+    background-color: var(--primary-color);
+    position: absolute;
+    top: calc(50% - 25px);
+
+}
+
+
 
 
