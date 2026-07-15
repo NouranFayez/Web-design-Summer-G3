@@ -1,0 +1,8 @@
+.bg-img{
+    background-image: url(https://preview.colorlib.com/theme/world/img/blog-img/b18.jpg);
+    height: 200px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: maroon;
+}
