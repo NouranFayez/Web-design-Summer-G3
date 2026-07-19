@@ -1,0 +1,10 @@
+- Js ==> Camel Case , case sensitive
+
+- Data types ==> string , number , boolean(true / false) , undefined , NaN (Not a Number) , null 
+
+-- operations ==> Mathematical Operations ==> + - * / ** % ++ --
+                  Assignment Operations ==> += -= /= *= **= 
+                  comparison operations ==>  > >= < <= == === != !==  ==> return boolean type
+                  unary operator ==> typeof , instanceof (search)
+                  logical operator ==> && || !
+                  ternary operator ==> (condition/s) ? true  : false
