@@ -8,3 +8,17 @@
                   unary operator ==> typeof , instanceof (search)
                   logical operator ==> && || !
                   ternary operator ==> (condition/s) ? true  : false
+
+
+-- Truthy and false values  
+
+-- if condition
+
+-- switch case (search)
+
+-- looping ==> for looping , while (search) , do-while (search) , forEach (array)
+
+-- function ==> name (required)
+                parameters (optional) / default paramters
+                return value
+                call funtion (required)
