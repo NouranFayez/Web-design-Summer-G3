@@ -1,0 +1,13 @@
+
+
+
+--- Bank system 
+
+-- user ==> id (unique) , name , balance
+
+users = []
+function addUser()
+function editUserBalanceById() -- id - new Balance
+function transferBalance() -- fromID , toID , balance
+function deleteUserById() -- id
+
